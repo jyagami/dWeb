@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <!-----    BOOTSTRAP LINK  ------->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+
+    <title>Login - bootstrap</title>
+
+    <style>
+        body{
+            font-family:sans-serif;
+            background-color:rgb(249,249,249);
+        }
+    </style>
+</head>
+<body>
+    
+<div class="container container-fluid"></div>
+
+    <div class="row  justify-content-center">
+        <div class="col-10 col-md-4  bg-light ">
+
+            <form>
+
+                <div class="img-fluid rounded p-5">
+                    <img src="img/bootstrap-solid.svg" class="img-fliud" style="height: 100px; width: 100px; display:flex; margin:0 auto;">
+                </div>
+
+                <h2 class="display text-center">INICIO DE SESION</h2><br>
+                    
+                <div class="form-group">
+                    <input type="email" placeholder="Correo electrónico" id="user" class="form-control form-control-lg">
+                    <small id="emailHelp" class="form-text text-muted">Nunca compartiremos tu correo electrónico con nadie más.</small>
+                </div>
+                    
+                <div class="form-group">
+                    <input type="password" placeholder="Contraseña" id="pass" class="form-control form-control-lg">
+                </div>
+                        
+                <div class="custom-control custom-checkbox">
+                    <input type="checkbox" id="checkAcepto" class="custom-control-input"> 
+                    <label for="checkAcepto" class="custom-control-label">Recuerdame</label>
+                </div>
+                
+                <div class="form-group">
+                    <a href="resgistro.html" class="">Registrarme</a>
+                </div>
+                
+                <input type="submit" name="enviar" value="INGRESAR" id="" class="btn btn-outline-primary btn-block btn-lg">
+            
+            </form>
+
+        </div>
+    </div>    
+
+
+<!-------       BOOTSTRAP SCRIPTS   -----   -->
+<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>    
+</body>
+</html>
